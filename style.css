@@ -1,0 +1,178 @@
+html {
+  height: 100%;
+  width: 100%;
+    font-family: 'Cormorant Garamond', serif;
+  overflow:visible;
+}
+
+/*----------------header---------------*/
+
+#logo{width:90px;
+     height:50px;
+     padding-top:30px;
+     }
+
+header{text-align:center;
+       background-image:linear-gradient(to bottom,#d7f5b2 5%,white);
+       display:flex;
+      }
+
+p{width:80%;
+        font-size:25px;
+        padding-left:10%;
+        text-align:justify;}
+
+header h1{font-size:45px;}
+
+
+@media (min-width:1029px)
+{
+  header{padding-left:35%;}
+}
+
+hr{width:90%;
+         background-color:darkgreen;
+         height:5px;
+         }
+/*--------------programs---------------*/
+
+#programs{font-size:30px;}
+
+#prgmcards{display:flex;
+          margin-left:10px;
+          overflow:scroll;}
+
+#prgmcards div{text-align:center;
+              margin-right:3%;
+              margin-bottom:3%;
+              background-color:#dafdaf;
+              padding:30px;
+              border-radius:20px;
+              box-shadow:4px 4px 5px 2px darkgreen;
+              transition:transform 2s ease;}
+
+#prgmcards div:hover{transform:translateX(20px);}
+
+#prgmcards div h3{font-size:25px;}
+
+#prgmcards div img{width:250px;
+                  height:250px;}
+
+@media (min-width:1029px)
+{
+  #prgmcards{margin-left:50px;
+            overflow:visible;}
+}
+
+/*--------------------title---------------*/
+#title{font-size:50px;
+      text-align:center;
+      margin-top:100px;}
+
+/*--------------feedback-------------------*/
+
+#feedback h2{font-size:85px;
+             animation:swing 2s ease 5;
+          }
+
+#feedback h3{text-align:center;
+            font-size:45px;
+            margin-top:-15%;}
+
+#feedback img{width:500px;
+             height:400px;
+           }
+
+#feedback div{display:flex;}
+
+/*----------------story--------------------*/
+#story{display:flex;
+      }
+
+#story div{width:50%;}
+
+#story1{background-image:linear-gradient(to left, darkgreen 10%,white);
+       padding:30px;}
+
+#story1 h2{font-size:50px;
+          }
+
+#story1 p{margin-top:40%;
+         font-size:30px;
+         font-weight:600;}
+
+#story2{
+  background-color:darkgreen;
+  text-align:center;
+}
+
+.imagec{margin-top:15%;
+           width:800px;
+           height:400px;
+          }
+
+#buttons{text-align:right;}
+
+#buttons button{font-size:40px;
+               height:60px;
+               width:80px;
+               padding:5px;}
+
+/*-------------------feedback---------------------*/
+
+#feedback{overflow:hidden;}
+
+#feedback h2{font-size:60px;}
+
+#feedback div{display:flex;}
+
+#feedback div h5{font-size:45px;
+                text-align:right;
+                width:10%;}
+
+#feedback div p{width:70%;}
+
+/*-----------------form--------------*/
+
+#form{
+      font-size:40px;
+      background-color:#d7f5b2;
+      width:50%;
+      padding:40px;
+  margin-top:30px;
+  margin-left:20%;
+    }
+
+#form h3{text-align:center;}
+
+#form input,textarea{ display:block;}
+
+#form input{width:60%;
+           height:30px;}
+
+#form textarea{width:60%;
+              height:90px;}
+
+#form button{width:20%;
+            height:40px;
+            padding:10px;
+            background-color:darkgreen;
+            margin-top:20px;
+            border-radius:20px;
+            color:white;
+            font-weight:900;
+            }
+
+
+/*--------------------footer-----------------*/
+
+footer{background-color:darkgreen;
+        width:100%;
+       color:white;
+       font-weight:800;
+       text-align:center;
+       height:100px;
+       padding:50px;
+       margin-top:30px;
+       }
+           
